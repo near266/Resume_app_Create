@@ -9,9 +9,8 @@ import { Resume } from "../lib/redux/types";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "Kuluru Vineeth",
-    summary:
-      "Software engineer obsessed with building exceptional products that people love",
+    name: "Vũ Quang Nam",
+    summary: "Lập trình viên phần mềm , vui tính , nhiệt huyết",
     email: "test@gmail.com",
     phone: "123-456-7890",
     location: "HYD,IND",
@@ -23,9 +22,9 @@ export const END_HOME_RESUME: Resume = {
       jobTitle: "Software Engineer",
       date: "May 2023 - Present",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Công ty hàng đầu về phát triển phần mềm , với nhiều năm trong lĩnh vực CNTT ",
+        "Cung cấp các giải pháp về công nghệ , chuyển dổi số cho doanh nghiệp",
+        "Cam kết phần mềm chất lượng dội ngũ nhân viên tư vấn nhiệt tình",
       ],
     },
     {
@@ -33,9 +32,9 @@ export const END_HOME_RESUME: Resume = {
       jobTitle: "Software Engineer",
       date: "May 2022 - May 2023",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Công ty hàng đầu về phát triển phần mềm , với nhiều năm trong lĩnh vực CNTT ",
+        "Cung cấp các giải pháp về công nghệ , chuyển dổi số cho doanh nghiệp",
+        "Cam kết phần mềm chất lượng dội ngũ nhân viên tư vấn nhiệt tình",
       ],
     },
     {
@@ -43,27 +42,32 @@ export const END_HOME_RESUME: Resume = {
       jobTitle: "Software Engineer",
       date: "May 2021 - May 2022",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Công ty hàng đầu về phát triển phần mềm , với nhiều năm trong lĩnh vực CNTT ",
+        "Cung cấp các giải pháp về công nghệ , chuyển dổi số cho doanh nghiệp",
+        "Cam kết phần mềm chất lượng dội ngũ nhân viên tư vấn nhiệt tình",
       ],
     },
   ],
   educations: [
     {
       school: "XYZ University",
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Chuyên ngành Công Nghệ Thông Tin",
       date: "Sep 2018 - Aug 2022",
-      gpa: "8.55",
+      gpa: "4.0",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Công ty hàng đầu về phát triển phần mềm , với nhiều năm trong lĩnh vực CNTT ",
+        "Cung cấp các giải pháp về công nghệ , chuyển dổi số cho doanh nghiệp",
+        "Cam kết phần mềm chất lượng dội ngũ nhân viên tư vấn nhiệt tình",
       ],
     },
   ],
   projects: [
     {
-      project: "Project1",
+      project: "Dự án",
       date: "Fall 2021",
       descriptions: [
-        "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
+        "Cung cấp các giải pháp về công nghệ , chuyển dổi số cho doanh nghiệp",
+        "Cam kết phần mềm chất lượng dội ngũ nhân viên tư vấn nhiệt tình",
       ],
     },
   ],

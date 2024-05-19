@@ -57,12 +57,12 @@ export const AutoTypingResume = () => {
             fontSize: "12",
             formToHeading: {
               workExperiences: resume.workExperiences[0].company
-                ? "WORK EXPERIENCE"
+                ? "KINH NGHIỆM LÀM VIỆC"
                 : "",
-              educations: resume.educations[0].school ? "EDUCATION" : "",
-              projects: resume.projects[0].project ? "PROJECT" : "",
-              skills: resume.skills.featuredSkills[0].skill ? "SKILLS" : "",
-              custom: "CUSTOM SECTION",
+              educations: resume.educations[0].school ? "HỌC VẤN" : "",
+              projects: resume.projects[0].project ? "DỰ ÁN" : "",
+              skills: resume.skills.featuredSkills[0].skill ? "KĨ NĂNG" : "",
+              custom: "TÙY CHỈNH",
             },
           }}
         />

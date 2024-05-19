@@ -15,7 +15,7 @@ export const WorkExperiencesForm = () => {
   const showDelete = workExperiences.length > 1;
 
   return (
-    <Form form="workExperiences" addButtonText="Add Job">
+    <Form form="workExperiences" addButtonText="Thêm">
       {workExperiences.map(({ company, jobTitle, date, descriptions }, idx) => {
         const handleWorkExperienceChange = (
           ...[
@@ -40,7 +40,7 @@ export const WorkExperiencesForm = () => {
             deleteButtonTooltipText="Delete job"
           >
             <Input
-              label="Company"
+              label="Công ty"
               labelClassName="col-span-full"
               name="company"
               placeholder="XYZ Company"
@@ -48,7 +48,7 @@ export const WorkExperiencesForm = () => {
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Job Totle"
+              label="Tên công việc"
               labelClassName="col-span-4"
               name="jobTitle"
               placeholder="Software Engineer"
@@ -56,7 +56,7 @@ export const WorkExperiencesForm = () => {
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Date"
+              label="Ngày"
               labelClassName="col-span-2"
               name="date"
               placeholder="Jan 2022 - Present"
@@ -64,7 +64,7 @@ export const WorkExperiencesForm = () => {
               onChange={handleWorkExperienceChange}
             />
             <BulletListTextArea
-              label="Description"
+              label="Mô tả"
               labelClassName="col-span-full"
               name="descriptions"
               placeholder="Bullet points"

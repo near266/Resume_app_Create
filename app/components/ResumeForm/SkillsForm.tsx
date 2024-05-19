@@ -39,7 +39,7 @@ export const SkillsForm = () => {
       <div className="col-span-full grid grid-cols-6 gap-3">
         <div className="relative col-span-full">
           <BulletListTextArea
-            label="Skills List"
+            label="Kĩ năng"
             labelClassName="col-span-full"
             name="descriptions"
             placeholder="Bullet points"
@@ -55,13 +55,9 @@ export const SkillsForm = () => {
           </div>
         </div>
         <div className="col-span-full mb-4 mt-6 border-t-2 border-dotted border-gray-200" />
-        <InputGroupWrapper
-          label="Featured Skills (Optional)"
-          className="col-span-full"
-        >
+        <InputGroupWrapper label="Kĩ năng nổi bật" className="col-span-full">
           <p className="mt-2 text-sm font-normal text-gray-600">
-            Featured skills is optional to highlight top skills, with more
-            circles mean higher proficiency
+            Các kỹ năng nổi bật là tùy chọn để làm nổi bật các kỹ năng hàng đầu
           </p>
         </InputGroupWrapper>
 

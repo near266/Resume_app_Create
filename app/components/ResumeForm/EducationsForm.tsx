@@ -21,7 +21,7 @@ export const EducationsForm = () => {
   const showBulletPoints = useAppSelector(selectShowBulletPoints(form));
 
   return (
-    <Form form={form} addButtonText="Add School">
+    <Form form={form} addButtonText="Thêm">
       {educations.map(({ school, degree, gpa, date, descriptions }, idx) => {
         const handleWorkExperienceChange = (
           ...[
@@ -50,7 +50,7 @@ export const EducationsForm = () => {
             deleteButtonTooltipText="Delete school"
           >
             <Input
-              label="School"
+              label="Trường"
               labelClassName="col-span-4"
               name="school"
               placeholder="XYZ University"
@@ -58,7 +58,7 @@ export const EducationsForm = () => {
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Date"
+              label="Ngày"
               labelClassName="col-span-2"
               name="date"
               placeholder="Jan 2022 - Present"
@@ -66,7 +66,7 @@ export const EducationsForm = () => {
               onChange={handleWorkExperienceChange}
             />
             <Input
-              label="Degree & Major"
+              label="Chuyên Ngành"
               labelClassName="col-span-4"
               name="degree"
               placeholder="Bachelor of Science in Computer Engineering"
@@ -83,7 +83,7 @@ export const EducationsForm = () => {
             />
             <div className="relative col-span-full">
               <BulletListTextArea
-                label="Additional Information (Optional)"
+                label="Thêm thông tin"
                 labelClassName="col-span-full"
                 name="descriptions"
                 placeholder="Feel free to enter additional activities and so on..."

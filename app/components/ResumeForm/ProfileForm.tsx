@@ -18,15 +18,15 @@ export const ProfileForm = () => {
     <BaseForm>
       <div className="grid grid-cols-6 gap-3">
         <Input
-          label="Name"
+          label="Thông tin cá nhân"
           labelClassName="col-span-full"
           name="name"
-          placeholder="Your Name"
+          placeholder="Tên đầy đủ"
           value={name}
           onChange={handleProfileChange}
         />
         <Input
-          label="Objective"
+          label="Mục tiêu"
           labelClassName="col-span-full"
           name="summary"
           placeholder="Entrepreneur and innovator obsessed with making exceptional products"
@@ -58,7 +58,7 @@ export const ProfileForm = () => {
           onChange={handleProfileChange}
         />
         <Input
-          label="Location"
+          label="Địa chỉ"
           labelClassName="col-span-2"
           name="location"
           placeholder="CITY, STATE"

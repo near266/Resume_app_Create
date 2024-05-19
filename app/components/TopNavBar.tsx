@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { cx } from "../lib/cx";
 import Link from "next/link";
 import Image from "next/image";
-
+import logo from "@/public/images/logo-website.png";
 export const TopNavBar = () => {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
@@ -21,7 +21,7 @@ export const TopNavBar = () => {
         <Link href="/">
           <div className="flex items-center justify-center gap-1">
             <Image
-              src={"assets/heart.svg"}
+              src={logo}
               width={16}
               height={16}
               alt="logo"
@@ -29,7 +29,7 @@ export const TopNavBar = () => {
               priority
             />
             <h1 className="text-xl whitespace-nowrap font-bold text-primary">
-              Resume Builder & Parser
+              Eztek Create Cv
             </h1>
           </div>
         </Link>
@@ -37,10 +37,7 @@ export const TopNavBar = () => {
           aria-label="Site Nav Bar"
           className="flex items-center gap-2 text-sm font-medium"
         >
-          {[
-            ["/resume-builder", "Builder"],
-            ["/resume-parser", "Parser"],
-          ].map(([href, text]) => (
+          {[].map(([href, text]) => (
             <Link
               key={text}
               className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4"
